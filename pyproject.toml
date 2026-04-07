@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cyber-sentinel-env"
+version = "1.0.0"
+description = "A realistic cybersecurity environment where agents interact with a live, sandboxed file system."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pydantic",
+    "openai",
+    "fastapi",
+    "uvicorn",
+    "openenv-core>=0.2.0"
+]
+
+[project.scripts]
+server = "server.app:main"

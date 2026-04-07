@@ -1,0 +1,10 @@
+name: cyber-sentinel-env
+description: A realistic cybersecurity environment where agents interact with a live, sandboxed file system and simulated services to find vulnerabilities and hidden flags.
+version: 1.0.0
+tasks:
+  - name: recon
+    difficulty: easy
+  - name: decode
+    difficulty: medium
+  - name: sqli
+    difficulty: hard
